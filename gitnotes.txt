@@ -105,3 +105,33 @@ git push -u origin main
         After setting the upstream branch, you can simply use 'git push' in the future without specifying the remote repository and the branch.
 
 	'origin' - This is the default name Git gives to the remote repository from which the local repository was cloned.
+
+
+
+
+---------------
+Branch Commands
+---------------
+
+
+git branch
+--------to check the branch
+
+git branch -M main
+--------to rename the branch
+
+git checkout branch_name
+--------To navigate to a branch
+
+git checkout -b branch_name
+--------To create a new branch
+
+git branch -d branch_name
+--------To delete a branch
+
+
+
+
+
+
+
