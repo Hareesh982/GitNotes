@@ -79,9 +79,9 @@ cp -r south_path destination_path
 
 
 
----------------------
-initializing the git
----------------------
+----------------------------------------------------------
+		Initializing the git
+----------------------------------------------------------
 
 git init
 --------Initializes the git to create a new empty repo in local machine
@@ -113,9 +113,9 @@ git push -u origin main
 
 
 
----------------
-Branch Commands
----------------
+--------------------------------------------------------
+		   Branch Commands
+--------------------------------------------------------
 
 
 git branch
@@ -136,6 +136,14 @@ git branch -d branch_name
 
 
 
+---------------------------------------------------------
+			Merging
+---------------------------------------------------------
+
+using merge commands
 
 
+using PR - Pull request
+It lets you tell others about changes you've pushed to the brnch in a repository on GitHub.
 
+ 
