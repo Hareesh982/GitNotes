@@ -152,3 +152,16 @@ git pull origin main
 git diff branch_name
 --------if we are in main branch and want check the difference with feature1 branch then we have to use 
 	'git branch feature1'
+
+
+
+---------------------------------------------------------
+		     Undo changes
+---------------------------------------------------------
+
+git reset filename
+--------can reste the file if the file is staged
+
+git reset
+--------can reset all the file if the files are staged
+
