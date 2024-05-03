@@ -156,14 +156,33 @@ git diff branch_name
 
 
 ---------------------------------------------------------
-		     Undo changes
+    To Undo staged changes (After using add command)
 ---------------------------------------------------------
+
 
 git reset filename
 --------can reste the file if the file is staged
 
 git reset
 --------can reset all the file if the files are staged
+
+
+
+
+---------------------------------------------------------
+  To unco commited changes (After using commit command)
+---------------------------------------------------------
+
+git reset HEAD~1
+--------To undo the chnages for only one commit (The most recent one)
+
+git reset commit_hash
+--------To undo the changes for multiple commits (use git log to get the hash value)
+	Changes can be seend only in remote repo.
+
+git reset --hard commit_hash
+--------To undo the changes for multiple commits (use git log to get the hash value)
+        Changes can be seend in both remote and local repo.
 
 
 
@@ -186,3 +205,4 @@ git log -n 10
 
 git log -p
 --------To display the diff for the most recent commit.
+
