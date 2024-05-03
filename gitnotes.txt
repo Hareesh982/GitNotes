@@ -165,3 +165,24 @@ git reset filename
 git reset
 --------can reset all the file if the files are staged
 
+
+
+
+---------------------------------------------------------
+		      log Comand
+---------------------------------------------------------
+
+git log 
+--------The git log command is used to view the history of a Git repository. It lists all the commits that have been made to the repository.
+
+git log filename
+--------To display the history of a specific file.
+
+git log branchname
+--------To display the history of a specific branch.
+
+git log -n 10
+--------To display the last 10 commits
+
+git log -p
+--------To display the diff for the most recent commit.
