@@ -170,7 +170,7 @@ git reset
 
 
 ---------------------------------------------------------
-  To udco commited changes (After using commit command)
+  To undo commited changes (After using commit command)
 ---------------------------------------------------------
 
 git reset HEAD~1
