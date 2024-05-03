@@ -148,3 +148,7 @@ It lets you tell others about changes you've pushed to the brnch in a repository
 
 git pull origin main
 --------used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+
+git diff branch_name
+--------if we are in main branch and want check the difference with feature1 branch then we have to use 
+	'git branch feature1'
