@@ -206,3 +206,12 @@ git log -n 10
 git log -p
 --------To display the diff for the most recent commit.
 
+
+
+
+---------------------------------------------------------
+			Fork
+---------------------------------------------------------
+
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+Fork is a rough copy.
